@@ -42,6 +42,10 @@ const GlobalStyles = createGlobalStyle`
     img {
         display: block;
     }
+    input {
+        font-weigt: bold;
+        font-family: 'Montserrat', sans-serif;
+    }
     }
 `;
 
