@@ -32,7 +32,7 @@ const Nav = () => {
       </Logo>
       <Description>
         <h1>Find Hot New Titles Everyday</h1>
-        <p>Finding new and exciting games can be hard. That's why Gourmet Games curates upcoming, new, and popular titles weekly from our special API.</p>
+        <p>Finding new, exciting games can be hard. That's why Gourmet Games curates upcoming, new, and popular titles weekly from our special API.</p>
         <p>Check back every week and see what's new.</p>
       </Description>
     </StyledNav>
@@ -87,11 +87,15 @@ const Description = styled(motion.div)`
   padding: 3rem 4rem;
   background-color: white;
   min-height: 25vh;
-  width: 90vw;
+  max-width: 800px;
+  width: 60%;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
   text-align: center;
   border-radius: 1rem;
   overflow: hidden;
+  @media (max-width: 1000px) {
+    width: 90%;
+  }
   h1 {
     max-width: 70%;
     padding-bottom: 1.5rem;
