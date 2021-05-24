@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.js": "/project-breathe/static/js/main.c57381b1.chunk.js",
-    "main.js.map": "/project-breathe/static/js/main.c57381b1.chunk.js.map",
-    "runtime-main.js": "/project-breathe/static/js/runtime-main.8368aa14.js",
-    "runtime-main.js.map": "/project-breathe/static/js/runtime-main.8368aa14.js.map",
-    "static/js/2.7d177aa1.chunk.js": "/project-breathe/static/js/2.7d177aa1.chunk.js",
-    "static/js/2.7d177aa1.chunk.js.map": "/project-breathe/static/js/2.7d177aa1.chunk.js.map",
-    "static/js/3.0171cab5.chunk.js": "/project-breathe/static/js/3.0171cab5.chunk.js",
-    "static/js/3.0171cab5.chunk.js.map": "/project-breathe/static/js/3.0171cab5.chunk.js.map",
-    "index.html": "/project-breathe/index.html",
-    "static/js/2.7d177aa1.chunk.js.LICENSE.txt": "/project-breathe/static/js/2.7d177aa1.chunk.js.LICENSE.txt",
-    "static/media/apple.aed8126a.svg": "/project-breathe/static/media/apple.aed8126a.svg",
-    "static/media/arcade.a9f3380e.svg": "/project-breathe/static/media/arcade.a9f3380e.svg",
-    "static/media/gameBoy.e1c143b4.svg": "/project-breathe/static/media/gameBoy.e1c143b4.svg",
-    "static/media/gamepad.98eab601.svg": "/project-breathe/static/media/gamepad.98eab601.svg",
-    "static/media/nintendo.a909be56.svg": "/project-breathe/static/media/nintendo.a909be56.svg",
-    "static/media/playstation.4bbb4079.svg": "/project-breathe/static/media/playstation.4bbb4079.svg",
-    "static/media/steam.840878ac.svg": "/project-breathe/static/media/steam.840878ac.svg",
-    "static/media/xbox.63a50e86.svg": "/project-breathe/static/media/xbox.63a50e86.svg"
+    "main.js": "/gourmet-games/static/js/main.c57381b1.chunk.js",
+    "main.js.map": "/gourmet-games/static/js/main.c57381b1.chunk.js.map",
+    "runtime-main.js": "/gourmet-games/static/js/runtime-main.5c604dfe.js",
+    "runtime-main.js.map": "/gourmet-games/static/js/runtime-main.5c604dfe.js.map",
+    "static/js/2.9454181e.chunk.js": "/gourmet-games/static/js/2.9454181e.chunk.js",
+    "static/js/2.9454181e.chunk.js.map": "/gourmet-games/static/js/2.9454181e.chunk.js.map",
+    "static/js/3.0171cab5.chunk.js": "/gourmet-games/static/js/3.0171cab5.chunk.js",
+    "static/js/3.0171cab5.chunk.js.map": "/gourmet-games/static/js/3.0171cab5.chunk.js.map",
+    "index.html": "/gourmet-games/index.html",
+    "static/js/2.9454181e.chunk.js.LICENSE.txt": "/gourmet-games/static/js/2.9454181e.chunk.js.LICENSE.txt",
+    "static/media/apple.aed8126a.svg": "/gourmet-games/static/media/apple.aed8126a.svg",
+    "static/media/arcade.a9f3380e.svg": "/gourmet-games/static/media/arcade.a9f3380e.svg",
+    "static/media/gameBoy.e1c143b4.svg": "/gourmet-games/static/media/gameBoy.e1c143b4.svg",
+    "static/media/gamepad.98eab601.svg": "/gourmet-games/static/media/gamepad.98eab601.svg",
+    "static/media/nintendo.a909be56.svg": "/gourmet-games/static/media/nintendo.a909be56.svg",
+    "static/media/playstation.4bbb4079.svg": "/gourmet-games/static/media/playstation.4bbb4079.svg",
+    "static/media/steam.840878ac.svg": "/gourmet-games/static/media/steam.840878ac.svg",
+    "static/media/xbox.63a50e86.svg": "/gourmet-games/static/media/xbox.63a50e86.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8368aa14.js",
-    "static/js/2.7d177aa1.chunk.js",
+    "static/js/runtime-main.5c604dfe.js",
+    "static/js/2.9454181e.chunk.js",
     "static/js/main.c57381b1.chunk.js"
   ]
 }
