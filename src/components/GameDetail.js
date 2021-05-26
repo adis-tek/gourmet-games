@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 //Redux
 import { useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
-import { smallImage } from "../util";
 //IMAGES
 import playstation from "../img/playstation.svg";
 import steam from "../img/steam.svg";
@@ -68,11 +67,11 @@ const GameDetail = ({ pathId }) => {
         <CardShadow className="shadow" onClick={exitDetailHander}>
           <Detail layoutId={pathId}>
             <Stats>
-              <div className="rating">
+              <Rating className="rating">
                 <motion.h3 layoutId={`title ${pathId}`}>{game.name}</motion.h3>
                 <p>Rating: {game.rating}</p>
                 {getStars()}
-              </div>
+              </Rating>
               <Info>
                 <h3>Platforms</h3>
                 <Platforms>
@@ -144,6 +143,10 @@ const Detail = styled(motion.div)`
   left: 10%;
   color: black;
   z-index: 10;
+  @media (max-width: 425px) {
+    width: 90%;
+    left: 5%;
+  }
   img {
     width: 100%;
   }
@@ -153,20 +156,35 @@ const Stats = styled(motion.div)`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media (max-width: 750px) {
+    flex-direction: column;
+  }
   img {
     width: 2rem;
     height: 2rem;
     display: inline;
   }
 `;
+
+const Rating = styled.div`
+  width: 100%;
+`;
+
 const Info = styled(motion.div)`
   text-align: center;
+  @media (max-width: 750px) {
+    width: 100%;
+  }
 `;
+
 const Platforms = styled(motion.div)`
   display: flex;
   justify-content: space-evenly;
   img {
     margin-left: 3rem;
+    @media (max-width: 750px) {
+      margin-left: 0rem;
+  }
   }
 `;
 

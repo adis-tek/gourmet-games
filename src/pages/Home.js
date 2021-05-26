@@ -92,6 +92,9 @@ const Home = () => {
 
 const GameList = styled(motion.div)`
   padding: 0rem 5rem;
+  @media (max-width: 1025px) {
+    padding: 0rem 1rem;
+  }
   h2 {
     padding: 5rem 0rem;
   }
@@ -103,6 +106,14 @@ const Games = styled(motion.div)`
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   grid-column-gap: 3rem;
   grid-row-gap: 5rem;
+  @media (max-width: 665px) {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: none;
+  grid-column-gap: none;
+  grid-row-gap: none;
+  width: 100%;
+  }
 `;
 
 export default Home;
