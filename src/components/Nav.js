@@ -67,14 +67,14 @@ const Logo = styled(motion.div)`
 
 const Description = styled(motion.div)`
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   padding: 3rem 4rem;
   background-color: white;
   min-height: 25vh;
   max-width: 800px;
-  width: 60%;
+  width: 100%;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
   text-align: left;
   border-radius: 1rem;
@@ -87,7 +87,7 @@ const Description = styled(motion.div)`
 
 const Text = styled.div`
   display: flex;
-  width: 60%;
+  width: 100%;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
