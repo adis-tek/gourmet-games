@@ -9,6 +9,7 @@ Gourmet Games allows users to discover new games just by visiting the website ev
 * This app was built using the React framework.
 * The project was styled using the styled-components dependency.
 * The data comes from an API called rawg.io
+* Redux used for memory management.
 
 ## Lessons Learned
 * How to work with an API.
