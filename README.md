@@ -1,3 +1,21 @@
+# Gourmet Games - Discover Games
+Gourmet Games allows users to discover new games just by visiting the website every week.
+## Features
+* A single page dashboard design.
+* A fully mobile-responsive design from desktop to tablet and to mobile.
+* Games are displayed as cards and can be opened for more details.
+
+## Technology
+* This app was built using the React framework.
+* The project was styled using the styled-components dependency.
+* The data comes from an API called rawg.io
+
+## Lessons Learned
+* How to work with an API.
+* How to manipulate API data.
+* How to display API data.
+
+---
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
