@@ -15,6 +15,8 @@ Gourmet Games allows users to discover new games just by visiting the website ev
 * How to work with an API.
 * How to manipulate API data.
 * How to display API data.
+* How to use Redux for memory management.
+* First time using styled-components on my own project.
 
 ---
 # Getting Started with Create React App
